@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* 
+    Tudo em HTML= # em CSS
+    Em HTML é class = . em CSS
+*/
+
+body {
+    background-color: rgb(203, 236, 203);
+}
+
+h1 {
+    color: green;
+}
+
+h1#principal {
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+
+h2 {
+    color: rgb(102, 180, 102);
+}
+
+h2.basico {
+    color: red;
+}
