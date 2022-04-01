@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+          body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: black;
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: gray ;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+            font-weight: bolder;
+        }
+        div.conteiner {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas pequenas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, tempore non optio tempora sit laborum error reprehenderit doloribus esse vitae corporis ab minus! Doloribus temporibus dolorem impedit aperiam ex rem.</p>
+    <div class="conteiner">
+        <table>
+            <caption>Tabelas reponsivas</caption>
+            <theader>
+                <tr>
+                    <td>mes tal</td>
+                    <td>mes tal</td>
+                    <td>mes tal</td>
+                    <td>mes tal</td>
+                    <td>mes tal</td>
+                    <td>mes tal</td>
+                    <td>mes tal</td>
+                    <td>mes tal</td>
+                    <td>mes tal</td>
+                    <td>mes tal</td>
+                    <td>mes tal</td>
+                    <td>mes tal</td>
+                </tr>
+            </theader>
+            <tbody>
+                <td>Amazon Echo</th>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
